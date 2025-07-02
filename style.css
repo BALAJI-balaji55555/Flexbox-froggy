@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #d0f4f7;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #38b2ac;
+  color: white;
+  padding: 1em;
+}
+
+.game-area {
+  margin-top: 2em;
+}
+
+.pond {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 200px;
+  border: 4px dashed #009688;
+  background-color: #c0e0de;
+  margin: 20px auto;
+  width: 80%;
+  transition: all 0.5s ease;
+}
+
+.frog {
+  width: 50px;
+  height: 50px;
+  background: url('https://cdn.pixabay.com/photo/2020/05/10/17/04/frog-5152122_1280.png') center/contain no-repeat;
+}
+
+.lilypad {
+  width: 60px;
+  height: 60px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/8/89/Nymphaea_nouchali_1.jpg') center/cover no-repeat;
+}
+
+textarea {
+  width: 60%;
+  height: 80px;
+  margin-top: 1em;
+  font-family: monospace;
+  font-size: 1em;
+  padding: 10px;
+}
+
+button {
+  margin-top: 1em;
+  padding: 10px 20px;
+  background: #38b2ac;
+  color: white;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.feedback {
+  margin-top: 1em;
+  font-weight: bold;
+}

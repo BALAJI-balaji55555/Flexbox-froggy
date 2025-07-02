@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flexbox Froggy Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Flexbox Froggy Clone</h1>
+    <p>Help the frog reach the lily pad using CSS Flexbox!</p>
+  </header>
+
+  <main>
+    <section class="game-area">
+      <div class="pond">
+        <div class="lilypad" id="target"></div>
+        <div class="frog" id="frog"></div>
+      </div>
+
+      <textarea id="code" placeholder="Type your Flexbox CSS here..."></textarea>
+      <button onclick="checkAnswer()">Submit</button>
+    </section>
+
+    <section class="feedback" id="feedback"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
